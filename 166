@@ -23,3 +23,12 @@ def kk(nums):
     print(k)
 nums=[9,9,9]
 kk(nums)
+def addDigits(self,num:int)->int:
+     while num>=10:
+           sumi=10
+           while num>0:
+                 rem=num%10
+                 sumi+=rem
+                 num=num%10
+                 num=sumi
+            return num     
